@@ -12,4 +12,9 @@ public class StudentController {
     public String hiStudent(){
         return "HI STUDENT";
     }
+
+    @GetMapping("/get")
+    public String getStudent(){
+        return "My Name is Islam";
+    }
 }
