@@ -6,15 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/student")
-public class StudentController {
-    @GetMapping("/hi")
-    public String hiStudent(){
-        return "HI STUDENT";
-    }
-
-    @GetMapping("/get")
-    public String getStudent(){
-        return "My Name is Islam";
+@RequestMapping("/about")
+public class AboutController {
+    @GetMapping("/start")
+    public String start(){
+        return "this show about us controller";
     }
 }
