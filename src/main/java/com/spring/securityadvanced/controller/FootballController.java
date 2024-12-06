@@ -4,7 +4,7 @@ package com.spring.securityadvanced.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("football")
+@RequestMapping("/football")
 public class FootballController {
 
     @GetMapping("/start")
